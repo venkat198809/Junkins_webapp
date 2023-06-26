@@ -1,8 +1,8 @@
 version: '3.8'
 services:
   ashu-ui-app:
-    image: ashu-web:app$BUILD_NUMBER
+    image: venkat-web:app$BUILD_NUMBER
     build: .
-    container_name: ashuc-newc1
+    container_name: venkat-newc1
     ports: # choose 1024 to 6000
     - 1982:80
