@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-  ashu-ui-app:
+  venkat-ui-app:
     image: venkat-web:app$BUILD_NUMBER
     build: .
     container_name: venkat-newc1
